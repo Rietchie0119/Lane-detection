@@ -23,3 +23,6 @@ This program splits the video into frames and analyzes each frame to detect the 
 
 ![](https://miro.medium.com/v2/resize:fit:1400/1*Cr73Mte5NNgO16D4moKDQg.png)
 5. Convert white pixel into sinusoidal curve in hough space. The bin that contains intersections more than threshold corresponds rho, theta value of a line in catesian space.
+
+![linedetec](https://github.com/Rietchie0119/Lane-detection/assets/28763133/53917dc7-0c2c-4482-b6a4-cab2101db40b)
+6. Show detected lines in each frame.
