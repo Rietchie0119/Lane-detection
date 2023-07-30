@@ -20,7 +20,7 @@ def average_slope_intercept(image, lines):
             parameters = np.polyfit((x1, x2), (y1, y2), 1) # 이 함수는 polynomial 형태에서 coefficients 를 반환해줌. 1은 1차 함수라는 뜻. 즉 m 과 b 를 반환
             slope = parameters[0]
             intercept = parameters[1]
-            if slope < 0:d
+            if slope < 0:
                 left_fit.append((slope, intercept)) # 차량 왼쪽에 선이 존재함
             else:
                 right_fit.append((slope, intercept)) # 차량 우측에 선이 존재함
