@@ -17,3 +17,9 @@ This program splits the video into frames and analyzes each frame to detect the 
 ![canny](https://github.com/Rietchie0119/Lane-detection/assets/28763133/892c6231-d08e-4936-9449-1ff5996d8d85)
 
 3. Use canny edge detection
+
+![cropped](https://github.com/Rietchie0119/Lane-detection/assets/28763133/4cef3046-c480-456b-ab42-c4beffcc8d35)
+4. Extract the region of interest using bitwise operation.
+
+![](https://miro.medium.com/v2/resize:fit:1400/1*Cr73Mte5NNgO16D4moKDQg.png)
+5. Convert white pixel into sinusoidal curve in hough space. The bin that contains intersections more than threshold corresponds rho, theta value of a line in catesian space.
