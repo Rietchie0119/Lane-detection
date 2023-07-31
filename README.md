@@ -2,7 +2,7 @@
 
 This is a program that detects lane on a road-view video.
 
-![test_image](https://github.com/Rietchie0119/Lane-detection/assets/28763133/bde25778-df6a-4fb0-8988-9f5c13cb7c91)
+![test_image](https://github.com/Rietchie0119/Lane-detection/assets/28763133/edf18638-b939-42f2-b1e8-150753707a5e)
 
 This program splits the video into frames and analyzes each frame to detect the lane lines. Following is the process I used to detect lines in the image.
 
@@ -14,7 +14,7 @@ This program splits the video into frames and analyzes each frame to detect the 
 
 2. Apply Gaussian Blur to reduce noise.
 
-![canny](https://github.com/Rietchie0119/Lane-detection/assets/28763133/892c6231-d08e-4936-9449-1ff5996d8d85)
+![canny](https://github.com/Rietchie0119/Lane-detection/assets/28763133/28fdcbe5-418d-4401-9f66-0c5ddd29bf03)
 
 3. Use canny edge detection
 
